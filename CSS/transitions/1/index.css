@@ -1,0 +1,22 @@
+.main {
+    width: 600px;
+    height: 700px;
+    background-color: rgb(255, 16, 16);
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    transition: all 2s linear 1s;
+}
+.main>div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-top-right-radius: 50%;
+   
+    border-top: 5px solid rgb(0, 0, 0);
+    background-color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

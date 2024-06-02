@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    height: 200px;
+    width: 950px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.two {
+    height: 150px;
+    width: 180px;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 7px;
+    background-color: #0f76d7;
+}
+
+img {
+    transition: 2s 0s linear;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+.three {
+    overflow: hidden;
+}
+
+.three>img {
+    height: 100px;
+    width: 178px;
+    border-radius: 7px 7px 0px 0px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+p {
+    font-size: 10px;
+    color: white;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+button {
+    width: 80px;
+    color: #0f76d7;
+    margin-left: 18px;
+    margin-top: 5px;
+    font-size: 10px;
+
+}
+
+.three>img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}

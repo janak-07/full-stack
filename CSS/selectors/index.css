@@ -1,0 +1,22 @@
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red ;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.parent>div:nth-child(odd){
+    background-color: black;
+
+}
+/* psuedo element */
+::selection{
+    background-color: red;
+    color: red;
+}
+.parent::first-letter{
+    color: red;
+    font-size: 40px;
+
+}

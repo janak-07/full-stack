@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parent {
+    width: 1200px;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.three {
+    width: 380px;
+    height: 320px;
+    /* border: 1px solid red; */
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}

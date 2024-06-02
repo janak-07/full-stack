@@ -1,0 +1,18 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.icon{
+    font-size: 70px;
+    color: black;
+    cursor: pointer;
+}
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.one{
+    display: none;
+}

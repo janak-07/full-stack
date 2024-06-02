@@ -1,0 +1,32 @@
+.one{
+    width: 200px;
+    height:50px;
+    margin-left:30px;
+
+
+}
+img{
+    width: 800px;
+    height: 500px;
+   
+}
+.three{
+    width: 700px;
+    margin-left: 80px;
+}
+.ui-li{
+    gap: 20px;
+}
+.link{
+    width: 900px;
+    height: 40px;
+    font-size: 20px;
+     
+}
+.hedr-bg-color{
+    background-color: rgb(247, 240, 240); 
+}
+.two{
+    
+    transform: translate(0px , 50px);  
+}

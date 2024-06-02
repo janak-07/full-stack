@@ -1,0 +1,26 @@
+.main {
+    width: 60%;
+    height: auto ; 
+    border: 1px solid red;
+    display: grid;
+    margin: auto;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.main div {
+    width: 250px;
+    height: 130px;
+    background-color: red;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:300px) and (max-width:767px) {
+    .main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+} 

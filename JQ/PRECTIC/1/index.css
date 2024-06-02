@@ -1,0 +1,79 @@
+.one {
+    width: 100%;
+    height: 570px;
+}
+
+.two {
+    width: 95%;
+    height: 130px;
+    margin-top: 400px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    transition: 1.5s 0s linear;
+
+
+}
+
+.jk-1 {
+    border-radius: 50px;
+    height: 150px;
+    width: 1200px;
+    margin-top: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: 20PX;
+
+}
+
+.jk-1-1 {
+    background-color: red;
+    color: white;
+
+}
+
+.jk-1-2 {
+    background-color: blue;
+    color: white;
+}
+
+.jk-1-3 {
+    background-color: green;
+    color: white;
+}
+
+.jk-1-4 {
+    background-color: black;
+    color: white;
+}
+
+.jk-1-5 {
+    background-color: pink;
+    color: white;
+}
+
+.jk-1-6 {
+    background-color: brown;
+    color: white;
+}
+
+.jk-1-7 {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
